@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2557996673570412533}
   m_Layer: 0
   m_Name: Tile
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,4 +99,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material1: {fileID: 2100000, guid: 12caed22a694d41c29be7f694af21ef7, type: 2}
   material2: {fileID: 2100000, guid: d2c3a00c2c17f4c08be0d867b8a716f8, type: 2}
+  snakeColor: {fileID: 2100000, guid: fe2c4e95059e24c55b86e3aae2a263cb, type: 2}
   _renderer: {fileID: 948175687638978774}

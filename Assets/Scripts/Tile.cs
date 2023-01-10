@@ -6,6 +6,7 @@ public class Tile : MonoBehaviour
 {
     public Material material1;
     public Material material2;
+    public Material snakeColor;
     public SpriteRenderer _renderer;
 
     public void SetColor(bool changeColor)
@@ -15,5 +16,10 @@ public class Tile : MonoBehaviour
         {
             _renderer.material = material2;
         }
+    }
+
+    public void ColorTheSnake()
+    {
+        _renderer.material = snakeColor;
     }
 }
