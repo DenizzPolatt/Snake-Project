@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 948175687638978774}
   - component: {fileID: 2557996673570412533}
   m_Layer: 0
-  m_Name: Tile
+  m_Name: FoodTile
   m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53,7 +53,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fe2c4e95059e24c55b86e3aae2a263cb, type: 2}
+  - {fileID: 2100000, guid: e5efcfca2ca494acd803ee707ed98711, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

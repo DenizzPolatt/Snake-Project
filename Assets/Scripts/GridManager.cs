@@ -8,12 +8,6 @@ public class GridManager : MonoBehaviour
     [SerializeField] private int _width;
     [SerializeField] private int _height;
     [SerializeField] private Tile _tilePrefab;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
 
     private void GenerateGrid()
     {
@@ -29,13 +23,4 @@ public class GridManager : MonoBehaviour
             }
         }
     }
-    // private void DrawSnake(Tile tile)
-    // {
-    //     if (snakeBody.Contains(tile.gameObject.transform.position))
-    //     {
-    //         Debug.Log("hello");
-    //         tile._renderer.material = _tilePrefab.snakeColor;
-    //     }
-    // }
-    
 }
